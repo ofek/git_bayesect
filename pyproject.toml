@@ -1,5 +1,5 @@
 [project]
-name = "git_bayesect"
+name = "git-bayesect"
 version = "1.2"
 authors = [{name = "Shantanu Jain"}, {email = "hauntsaninja@gmail.com"}]
 description = "Git bisection with Bayesian statistics"
@@ -21,7 +21,6 @@ dependencies = [
 
 [project.scripts]
 git-bayesect = "git_bayesect:main"
-git_bayesect = "git_bayesect:main"
 
 [project.urls]
 homepage = "https://github.com/hauntsaninja/git_bayesect"
