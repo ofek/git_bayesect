@@ -1,4 +1,4 @@
-# git bayesect
+# `git bayesect`
 
 Bayesian git bisection!
 
@@ -11,16 +11,16 @@ has changed at some point in some direction
 ## Installation
 
 ```
-pip install git_bayesect
+pip install git-bayesect
 ```
 Or:
 ```
-uv tool install git_bayesect
+uv tool install git-bayesect
 ```
 
 ## How it works
 
-`git_bayesect` uses Bayesian inference to identify the commit introducing a change, with
+`git bayesect` uses Bayesian inference to identify the commit introducing a change, with
 commit selection performed via greedy minimisation of expected entropy, and using a Beta-Bernoulli
 conjugacy trick while calculating posterior probabilities to make handling unknown failure rates
 tractable.
